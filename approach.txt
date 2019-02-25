@@ -1,0 +1,14 @@
+Approach to Solve Problems in GameBot
+
+1. capture the gaming screen
+
+2. with Opencv or image detection technique find object of interest
+    eg. for driving car we must know how a car looks how to get into car and how to drive car on roads, 
+        we can use lanes to detect roads.
+    eg. for picking a gun we must know how a gun and matching ammos look.
+
+3. Using python to input keyboard data (our architecture should be able to acces game)
+
+4. Finding region of interest of each object. 
+    eg. for driving its mainly below the horizon.
+    eg. for picking guns its in lower region of scrren.
